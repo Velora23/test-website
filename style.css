@@ -1,0 +1,12 @@
+:root { --bg: #f7f7f8; --fg: #1b1b1f; --card: #fff; --ok: #1a7f37; --bad: #cf222e; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0d1117; --fg: #e6edf3; --card: #161b22; --ok: #3fb950; --bad: #f85149; }
+}
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+main { max-width: 640px; margin: 40px auto; padding: 24px 16px; background: var(--card); border-radius: 12px; }
+#checks { list-style: none; padding: 0; }
+#checks li { padding: 8px 0; font-size: 1.1rem; }
+body { --css-loaded: yes; }
+.ok { color: var(--ok); }
+.fail { color: var(--bad); }
+pre { background: var(--bg); padding: 12px; border-radius: 8px; overflow-x: auto; }
