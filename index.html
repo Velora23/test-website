@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deployment Test Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>🚀 Deployment Test Site</h1>
+    <p>If you can read this, the HTML is being served correctly.</p>
+    <h2>Health checks</h2>
+    <ul id="checks">
+      <li id="check-html" class="ok">✅ HTML loaded</li>
+      <li id="check-css" class="pending">⏳ CSS loaded</li>
+      <li id="check-js" class="pending">⏳ JavaScript running</li>
+      <li id="check-api" class="pending">⏳ API function (/api/health)</li>
+    </ul>
+    <h2>Details</h2>
+    <pre id="details">Loading…</pre>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
